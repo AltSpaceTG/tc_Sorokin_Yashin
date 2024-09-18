@@ -119,7 +119,8 @@ if __name__ == "__main__":
     #1.3
     lc = LinearCode(matrix)
     #1.3.1
-    print(lc.ref())
+    G = lc.ref()
+    print(G)
     #1.3.2
     print(lc.get_matrix_ref_size())
     #1.3.3
